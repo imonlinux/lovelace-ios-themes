@@ -51,9 +51,10 @@ ios-light-mode-blue-red-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(30, 2, 61, 0.4)
@@ -120,9 +121,10 @@ ios-light-mode-blue-red:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(30, 2, 61, 0.4)
@@ -189,9 +191,10 @@ ios-dark-mode-blue-red-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(30, 2, 61, 0.4)
@@ -258,9 +261,10 @@ ios-dark-mode-blue-red:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(30, 2, 61, 0.4)
@@ -327,9 +331,10 @@ ios-light-mode-dark-blue-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 69, 124, 0.4)
@@ -396,9 +401,10 @@ ios-light-mode-dark-blue:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 69, 124, 0.4)
@@ -465,9 +471,10 @@ ios-dark-mode-dark-blue-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 69, 124, 0.4)
@@ -534,9 +541,10 @@ ios-dark-mode-dark-blue:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 69, 124, 0.4)
@@ -603,9 +611,10 @@ ios-light-mode-dark-green-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 89, 71, 0.4)
@@ -672,9 +681,10 @@ ios-light-mode-dark-green:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 89, 71, 0.4)
@@ -741,9 +751,10 @@ ios-dark-mode-dark-green-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 89, 71, 0.4)
@@ -810,9 +821,10 @@ ios-dark-mode-dark-green:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(48, 89, 71, 0.4)
@@ -879,9 +891,10 @@ ios-light-mode-light-blue-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(1, 195, 220, 0.4)
@@ -948,9 +961,10 @@ ios-light-mode-light-blue:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(1, 195, 220, 0.4)
@@ -1017,9 +1031,10 @@ ios-dark-mode-light-blue-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(1, 195, 220, 0.4)
@@ -1086,9 +1101,10 @@ ios-dark-mode-light-blue:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(1, 195, 220, 0.4)
@@ -1155,9 +1171,10 @@ ios-light-mode-light-green-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(114, 188, 139, 0.4)
@@ -1224,9 +1241,10 @@ ios-light-mode-light-green:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(114, 188, 139, 0.4)
@@ -1293,9 +1311,10 @@ ios-dark-mode-light-green-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(114, 188, 139, 0.4)
@@ -1362,9 +1381,10 @@ ios-dark-mode-light-green:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(114, 188, 139, 0.4)
@@ -1431,9 +1451,10 @@ ios-light-mode-orange-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(255, 229, 116, 0.4)
@@ -1500,9 +1521,10 @@ ios-light-mode-orange:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(255, 229, 116, 0.4)
@@ -1569,9 +1591,10 @@ ios-dark-mode-orange-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(255, 229, 116, 0.4)
@@ -1638,9 +1661,10 @@ ios-dark-mode-orange:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(255, 229, 116, 0.4)
@@ -1707,9 +1731,10 @@ ios-light-mode-red-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(234, 88, 63, 0.4)
@@ -1776,9 +1801,10 @@ ios-light-mode-red:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(200, 200, 200, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--secondary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--secondary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--secondary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(230, 230, 230, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(234, 88, 63, 0.4)
@@ -1845,9 +1871,10 @@ ios-dark-mode-red-alternative:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(234, 88, 63, 0.4)
@@ -1914,9 +1941,10 @@ ios-dark-mode-red:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: rgba(55, 55, 55, 0.8)  # e.g., background of more-info dialogs
-  ha-color-form-background: var(--primary-background-color)          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: var(--primary-background-color)    # hover state
-  ha-color-form-background-disabled: var(--primary-background-color) # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(234, 88, 63, 0.4)
