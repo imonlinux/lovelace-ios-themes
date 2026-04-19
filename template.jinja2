@@ -49,9 +49,10 @@ ios-{{ which }}-mode-{{ color }}{{ suffix }}:
   switch-checked-button-color: "#FFF"
   # Other
   dialog-background-color: {{ dialog_background_color }}  # e.g., background of more-info dialogs
-  ha-color-form-background: {{ form_background_color }}          # select/input bg (HA 2026.4+)
-  ha-color-form-background-hover: {{ form_background_color }}    # hover state
-  ha-color-form-background-disabled: {{ form_background_color }} # disabled state
+  # Form fields / select dropdowns (ha-input component, HA 2026.4+)
+  ha-color-form-background: var(--ha-card-background)
+  ha-color-form-background-hover: var(--ha-card-background)
+  ha-color-form-background-disabled: var(--ha-card-background)
   more-info-header-background: {{ more_info_header_background }}
   lumo-body-text-color: var(--primary-text-color)  # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: {{ app_header_background_color }}
